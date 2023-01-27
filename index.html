@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Moon+Dance&display=swap" rel="stylesheet">
+    <title>Curriculum Vitae</title>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <main>
+            <nav class="nav-bar">
+                <a href="#info">Información personal</a>
+                <a href="#exp">Experiencia</a>
+                <a href="#hab">Habilidades</a>
+                <a href="#form">Formulario de contato</a>
+            </nav>
+        </main>
+    </div>
+    <h1>Marge Simpson</h1>
+    <div id="foto">
+        <img src="https://randomuser.me/api/portraits/women/76.jpg" alt="foto de perfil" />
+    </div>
+    <p id="info"><b>INFORMACION PERSONAL</b></p>
+    <ul>
+        <li><i><strong>Nombre: </strong>Marge</i></li>
+        <li><i><strong>Apellido: </strong>simpson</i></li>
+        <li><i><strong>Edad:</strong> 30 años</i></li>
+        <li><i><strong>Nacionalidad: </strong>argentina</i></li>
+        <li><i><strong>Teléfono: </strong>0303456</i></li>
+    </ul>
+    <p id="exp"><b>EXPERIENCIA</b></p>
+    <ul>
+        <li class="clase"><i><u>Desarrollo de páginas web:</u></i></li>
+        <ul>
+            <li><i>Estructura de un proyecto web.</i></li>
+            <li><i>Elementos multimediales.</i></li>
+            <li><i>Capa de presentación.</i></li>
+            <li><i>CSS y sus frameworks.</i></li>
+            <li><i>Alojamiento y tipo de servidores.</i></li>
+        </ul>
+        <br>
+        <li class="clase"><i><u>Fundamentos de la programación:</u></i></li>
+        <ul>
+            <li><i>Pensamiento lógico.</i></li>
+            <li><i>Tipos de lenguajes de programación.</i></li>
+            <li><i>Estructuras de la programación.</i></li>
+            <li><i>Fundamentos de JavaScript I.</i></li>
+            <li><i>Fundamentos de JavaScript II.</i></li>
+        </ul>
+    </ul>
+    <p id="hab"><b>HABILIDADES</b></p>
+    <ul>
+        <li><i>HTML</i></li>
+        <li><i>CSS</i></li>
+        <li><i>JavaScript</i></li>
+    </ul>
+    <section>
+        <h3 id="form">FORMULARIO DE CONTACTO</h3>
+        <form id="respuesta" action="" method="post">
+            <label for="consulta"> CONSULTA: </label>
+            <input type="text" id="consulta" name="consulta" placeholder="Ingrese su consulta" />
+            <label for="nombre"> NOMBRE Y APELLIDO: </label>
+            <input type="text" id="nombre" name="nombre" placeholder="Ingrese su nombre y apellido" />
+            <label for="telefono"> TELEFONO: </label>
+            <input type="number" id="telefono" name="telefono" placeholder="Ingrese su número de teléfono" />
+            <br><br>
+            <input id="boton" type="submit" id="enviar" value="ENVIAR" />
+        </form>
+    </section>
+    <script src="function.js"></script>
+</body>
+
+<footer>
+    <button class="iconos"><a href="https://ar.linkedin.com/" target=_blank><img
+                src="https://cdn.icon-icons.com/icons2/1906/PNG/512/iconfinder-linkedin-4550875_121338.png"
+                alt="linkedin"></a></button>
+    <button class="iconos"><a href="https://www.whatsapp.com/?lang=es" target=_blank><img
+                src="https://cdn.icon-icons.com/icons2/840/PNG/512/Whatsapp_icon-icons.com_66931.png"
+                alt="whatsapp"></a></button>
+    <button class="iconos"><a href="https://es-la.facebook.com/" target=_blank><img
+                src="https://cdn.icon-icons.com/icons2/1906/PNG/512/iconfinder-facebook-4550856_121356.png"
+                alt="facebook"></a></button>
+    <button class="iconos"><a href="https://twitter.com/?lang=es" target=_blank><img
+                src="https://cdn.icon-icons.com/icons2/1488/PNG/512/5294-twitter-i_102511.png"
+                alt="twitter"></a></button>
+    <button class="iconos"><a href="https://www.instagram.com/" target=_blank><img
+                src="https://cdn.icon-icons.com/icons2/840/PNG/512/Instagram_icon-icons.com_66912.png"
+                alt="instagram"></a></button>
+</footer>
+
+</html>
